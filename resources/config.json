@@ -1,0 +1,50 @@
+{
+  "environments": [
+    {
+      "environment": "fenix_ZAMBIA-QA",
+      "properties": {
+        "browser":"chrome",
+        "isActive":"true",
+        "cr_path":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        "firefox_path":"C:\\Users\\F5182018\\AppData\\Local\\Mozilla Firefox\\firefox.exe",
+        "aut_url":"https://bis-rbgwassit201.fnb.co.za/Security",
+        "aut_user":"9600503",
+        "aut_pass":"P@#sw0rd",
+        "db_url":"",
+        "db_user":"",
+        "db_pass":"",
+        "swift_hostname":"",
+        "swift_jms_port":"",
+        "swift_bic":"",
+        "rfbs_hostname":"",
+        "rfbs_jms_port":"",
+        "enable_db_logging":"false",
+        "enable_html_logging" : "true"
+      }
+    },
+
+    {
+      "environment": "fenix_NAMIBIA-INT",
+      "properties": {
+        "browser":"firefox",
+        "isActive":"true",
+        "cr_path":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+        "firefox_path":"C:\\Users\\F5182018\\AppData\\Local\\Mozilla Firefox\\firefox.exe",
+        "aut_url":" https://bis-rbgwassit201.fnb.co.za/Security",
+        "aut_user":"9200501",
+        "aut_pass":"P@ssw0rd123",
+        "db_url":"",
+        "db_user":"",
+        "db_pass":"",
+        "swift_hostname":"",
+        "swift_jms_port":"",
+        "swift_bic":"",
+        "rfbs_hostname":"",
+        "rfbs_jms_port":"",
+        "enable_db_logging":"false",
+        "enable_html_logging" : "true"
+      }
+    }
+  ]
+}
+

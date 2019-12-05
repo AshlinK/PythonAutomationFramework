@@ -1,0 +1,50 @@
+#Ignore all .class files
+*.class
+*.classpath
+*.project
+*.xsd
+*.prefs
+
+#Ignore all .exe files
+*.exe
+
+#Ignore __pycache__
+*__pycache__/
+
+#Ignore venv folder
+venv/
+
+#Ignore libr folder
+libr/
+
+#Ignore the .idea folder
+.idea/
+
+#Ignore the pytest cache folder
+.pytest_cache/
+
+#Ignore the .iml file (Created by IntelliJ for the module)
+*.iml
+
+#Ignore jar files
+*.jar
+
+#Ignore the manifest file
+*.MF
+
+#Ignore the screenshot images
+*.jpg
+
+#Ignore .html files
+*.html
+
+#Ignore .log files
+*.log
+
+#Ignore other files
+*.rules
+*.vbs
+*.7z
+
+#Ignore the Test Output folder
+TestOutput/

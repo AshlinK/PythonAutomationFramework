@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object_repository>
+    <page name="Login">
+        <element name="txtUsername" by="css" identifier="input[name='username']"/>
+        <element name="txtPassword" by="css" identifier="input[name='password']"/>
+        <element name="btnLogin" by="css" identifier="input[type='submit']"/>
+        <element name="btnChange" by="css" identifier="input[type='login']"/>
+    </page>
+
+    <page name="Universal">
+        <element name="btnChange" by="css" identifier="input[value='Change']"/>
+        <element name="btnDownload" by="css" identifier="button[id='download']"/>
+        <element name="btnLogOut" by="xpath" identifier="//a[text()='Log out']"/>
+        <element name="btnReset" by="xpath" identifier="//a//span[text()='Reset']"/>
+        <element name="btnExit" by="xpath" identifier="//a[text()='EXIT']" />
+    </page>
+
+</object_repository>
