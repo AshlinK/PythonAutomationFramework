@@ -7,15 +7,14 @@ from main.store.Constants import *
 from main.store.Properties import set_driver, get_driver
 from main.utility.ObjectRepoUtils import get_element_properties
 
+log = get_module_logger(__name__)
+
 
 class WebDriverAdapter:
-    global log, driver
-    log = get_module_logger(__name__)
 
     def init_browser(self, str_browser):
 
         if str_browser.casefold() == "chrome".casefold():
-
             options = webdriver.ChromeOptions()
             capabilities = options.to_capabilities()
             self.driver = webdriver.Chrome(
@@ -63,7 +62,6 @@ class WebDriverAdapter:
 
         except Exception as e:
             log.error("Exception occurred ", e)
-
 
     @staticmethod
     def get_element(str_element):
