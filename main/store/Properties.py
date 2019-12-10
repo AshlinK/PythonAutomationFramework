@@ -25,6 +25,7 @@ def set_driver(driver):
     global arg_driver
     arg_driver = driver
 
+
 def get_driver():
     return arg_driver
 
