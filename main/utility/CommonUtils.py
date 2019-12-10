@@ -8,10 +8,9 @@ import main.mainTest.MyLogger as mylogger
 from inspect import stack
 from sys import argv
 
-""" This is where project configuration methods will be available.
+""" This is where common and frequently used project configuration methods will be available.
 For example, take screen shot, timestamp, create output folder """
 
-global Log
 Log = mylogger.get_module_logger(__name__)
 
 
@@ -81,7 +80,7 @@ def take_screenshot(self, str_msg, driver):
 def read_config(str_environment):
     """ This dictionary will hold you config parameters.(config.json). It will create a dict from config.json"""
     try:
-        property.dict_test_params= transform_json_config_to_dict(str_environment)
+        property.dict_test_params = transform_json_config_to_dict(str_environment)
     except Exception as e:
         Log.error("Exception occurred in read config method ", e)
 
