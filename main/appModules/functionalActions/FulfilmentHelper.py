@@ -3,10 +3,10 @@ from inspect import stack
 import main.mainTest.MyLogger as mylogger
 from main.utility.WebDriverAdapter import WebDriverAdapter
 
+Log = mylogger.get_module_logger(__name__)
+
 
 class FulfilmentHelper(WebDriverAdapter):
-    global Log
-    Log = mylogger.get_module_logger(__name__)
 
     def __init__(self):
         pass

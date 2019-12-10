@@ -4,13 +4,12 @@ from main.store.Properties import dict_test_params, get_dict_test_param
 from main.store.Constants import *
 from main.utility.WebDriverAdapter import WebDriverAdapter
 
+Log = get_module_logger(__name__)
+
 
 class TestExecutor:
     """ This class contains the setup and tear down of the test case
      execution."""
-
-    global Log
-    Log = get_module_logger(__name__)
 
     obj_webdriver_adapter = None
     str_URL = None
