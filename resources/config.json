@@ -24,7 +24,7 @@
     },
 
     {
-      "environment": "fenix_NAMIBIA-INT",
+      "environment": "",
       "properties": {
         "browser":"firefox",
         "isActive":"true",
