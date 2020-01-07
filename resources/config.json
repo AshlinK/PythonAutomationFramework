@@ -1,15 +1,15 @@
 {
   "environments": [
     {
-      "environment": "fenix_ZAMBIA-QA",
+      "environment": "",
       "properties": {
         "browser":"chrome",
         "isActive":"true",
         "cr_path":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
         "firefox_path":"C:\\Users\\F5182018\\AppData\\Local\\Mozilla Firefox\\firefox.exe",
-        "aut_url":"https://bis-rbgwassit201.fnb.co.za/Security",
-        "aut_user":"9600503",
-        "aut_pass":"P@#sw0rd",
+        "aut_url":"",
+        "aut_user":"",
+        "aut_pass":"",
         "db_url":"",
         "db_user":"",
         "db_pass":"",
@@ -30,9 +30,9 @@
         "isActive":"true",
         "cr_path":"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
         "firefox_path":"C:\\Users\\F5182018\\AppData\\Local\\Mozilla Firefox\\firefox.exe",
-        "aut_url":" https://bis-rbgwassit201.fnb.co.za/Security",
-        "aut_user":"9200501",
-        "aut_pass":"P@ssw0rd123",
+        "aut_url":" ",
+        "aut_user":"",
+        "aut_pass":"",
         "db_url":"",
         "db_user":"",
         "db_pass":"",
