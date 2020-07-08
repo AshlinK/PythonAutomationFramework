@@ -18,5 +18,5 @@ This framework is created using Pytest and Datadriven functionality.
     name of the class and excel file should be same.
 
 6. Run the test using the below command,
-   pytest DespositTest.py
+   >  pytest DepositTest.py
    
